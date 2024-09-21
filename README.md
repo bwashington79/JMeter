@@ -9,7 +9,7 @@
 - Use Random Number config element.  This value is appended to form data to create unique instances of data
 - Leverage functionality to upload a local file to be used for route call (requires Working directory configuration)
 - Extract data from JSON response to be used in subsequent route calls
-- Utilize JSR223 Postprocess to leveage custom Groovy code to create a NEW CSV file that will contain data to be used in subsequent route calls
+- Utilize JSR223 Postprocess to leverage custom Groovy code to create a NEW CSV file that will contain data to be used in subsequent route calls
         processor name in .jmx file is "Create file containing ids of creates locations"
 
 - Utilize Beanshell Assertion config element to progmatically define and set new variables
